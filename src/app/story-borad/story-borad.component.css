@@ -1,0 +1,36 @@
+#displayData{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+#data{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#data:hover{
+    background-color: black;
+    color: white;
+}
+#areafull{
+    width: 100%;
+    height: 40vh;
+}
+#subbtn{
+    width: 90%;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    color: white;
+    /* box-shadow: ; */
+    
+
+}
+#subbtn:hover{
+    background-color: white;
+    color: black;
+}

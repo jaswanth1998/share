@@ -20,12 +20,27 @@ import { SubTopicCreateComponent } from './sub-topic-create/sub-topic-create.com
 
 import { ShowGraphComponent } from './show-graph/show-graph.component';
 
+import { StepperComponent } from './stepper/stepper.component';
+import { EditDataComponent } from './edit-data/edit-data.component';
+
+
+import { StoryBoradComponent } from './story-borad/story-borad.component';
 
 
 const routes: Routes = [
   {
+    path:"storyBorad",
+    component:StoryBoradComponent
+
+  },
+  {
+    path:"Edit",
+    component:EditDataComponent
+
+  },
+  {
     path:"display_graph",
-    component:ShowGraphComponent
+    component:StepperComponent
 
   },
   {

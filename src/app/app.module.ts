@@ -47,6 +47,11 @@ import { GetitComponent } from './getit/getit.component';
 import { WriteStoryComponent } from './write-story/write-story.component';
 import { SubTopicCreateComponent } from './sub-topic-create/sub-topic-create.component';
 import { ShowGraphComponent } from './show-graph/show-graph.component';
+import { StepperComponent } from './stepper/stepper.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import { EditDataComponent } from './edit-data/edit-data.component';
+
+import { StoryBoradComponent } from './story-borad/story-borad.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +66,10 @@ import { ShowGraphComponent } from './show-graph/show-graph.component';
     GetitComponent,
     WriteStoryComponent,
     SubTopicCreateComponent,
-    ShowGraphComponent
+    ShowGraphComponent,
+    StepperComponent,
+    EditDataComponent,
+    StoryBoradComponent
   ],
   imports: [
     BrowserModule,
@@ -71,6 +79,7 @@ import { ShowGraphComponent } from './show-graph/show-graph.component';
     AngularFirestoreModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatStepperModule,
     MatDialogModule,
     FormsModule ,
     NgbModule,
