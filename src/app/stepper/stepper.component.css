@@ -5,4 +5,22 @@
   .mat-form-field {
     margin-top: 16px;
   }
-  
+  #valuebtns{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    grid-row-gap: 20px;
+    
+
+  }
+  #valuebtn{
+
+    border-radius: 15px ;
+
+  }
+  #valuebtn:hover{
+
+    background-color: black;
+    color: white;
+
+  }

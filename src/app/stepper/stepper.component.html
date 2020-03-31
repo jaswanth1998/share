@@ -2,7 +2,7 @@
     <!-- <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
         {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
       </button> -->
-      <mat-horizontal-stepper [linear]="isLinear" #stepper>
+      <!-- <mat-horizontal-stepper [linear]="isLinear" #stepper>
         <mat-step [stepControl]="firstFormGroup">
           <form [formGroup]="firstFormGroup">
             <ng-template matStepLabel>Fill out your name</ng-template>
@@ -11,6 +11,7 @@
               <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
             </mat-form-field>
             <div>
+              <button mat-button matStepperNext>Push</button>
               <button mat-button matStepperNext>Next</button>
             </div>
           </form>
@@ -69,7 +70,50 @@
               <button mat-button (click)="stepper.reset()">Reset</button>
             </div>
           </mat-step>
-      </mat-horizontal-stepper>
+      </mat-horizontal-stepper> -->
+
+
+
+      <mat-vertical-stepper [linear]="isLinear" #stepper>
+        <mat-step *ngFor="let item of map | keyvalue">
+          <ng-template matStepLabel>  {{item.key}}</ng-template>
+          <br>
+          
+          <div id = "valuebtns"> 
+          <button id = "valuebtn"  *ngFor="let show of item.value"  (click) = "addIt(item.key,show)" matStepperNext  >
+
+            {{show}}
+          </button>
+        </div>
+          
+          <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>  Final Step</ng-template>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Value</th>
+             
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let maping of finalMap | keyvalue">
+                <th scope="row">{{maping.key}}</th>
+                <td>{{maping.value}}</td>
+               
+              </tr>
+              
+            </tbody>
+          </table>
+
+        </mat-step>
+      </mat-vertical-stepper>
+    
     
 </div>
 

@@ -58,7 +58,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"\">CodeBase</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        \n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\">Add Data<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"create_sub_topic\">Create Sub topics</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"display_graph\"> Architecture</a>\n        </li>\n       \n      </ul>\n    </div>\n  </nav>\n\n\n  <!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Features</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link disabled\" href=\"#\">Disabled</a>\n        </li>\n      </ul>\n    </div>\n  </nav> -->\n\n\n  <div id = \"\">\n\n  </div>\n\n<router-outlet></router-outlet>\n\n<div class=\"fab\" routerLink=\"create_sub_topic\"> + </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"\">CodeBase</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        \n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\">Add Data<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"Edit\"> Edit Data</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"create_sub_topic\">Create Sub topics</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"storyBorad\"> Story Borad</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"display_graph\"> Architecture</a>\n        </li>\n       \n      </ul>\n    </div>\n  </nav>\n\n\n  <!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Features</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link disabled\" href=\"#\">Disabled</a>\n        </li>\n      </ul>\n    </div>\n  </nav> -->\n\n\n  <div id = \"\">\n\n  </div>\n\n<router-outlet></router-outlet>\n\n<div class=\"fab\" routerLink=\"create_sub_topic\"> + </div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/edit-data/edit-data.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/edit-data/edit-data.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>edit-data works!</p>\n");
 
 /***/ }),
 
@@ -150,6 +163,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n\n  <br>\n  <br>\n\n<input  [(ngModel)]=\"binding\" type=\"text\" name=\"\" id=\"\"  placeholder=\"Enter node Name\" >\n&nbsp;\n<button (click)= \"addNode(binding)\" class=\"btn btn-primary\">\nAdd node \n\n</button>\n\n<br>\n<br>\n<div>\n  <div *ngFor=\"let item of displaynodes\">\n    <div id = \"makeGrid\">\n      <div>\n    <h5 style=\"color: blue;\">{{item}}    ---------></h5>\n  </div>\n  <div>\n    Link to the \n    <select id=\"cars\" #linknodevalueis >\n      \n      <option  *ngFor=\"let item1 of displaynodes\"  value=\"{{item1}}\" >\n        <!-- <div *ngIf=\"item1!=item\" > -->\n        {{item1}} \n      <!-- </div> -->\n      </option>\n    \n     \n    </select>\n    &nbsp;&nbsp;\n    <input #linkLabeltodisplay type=\"text\" name=\"\" id=\"\" placeholder=\"Enter label to link\">\n    &nbsp;&nbsp;\n    <button (click)= \"linkIt(item,  linknodevalueis.value,linkLabeltodisplay.value)\"  class=\"btn btn-success\">Link It</button>\n  </div>\n  </div>\n  <br>\n\n  </div>\n</div>\n\n<p>{{binding}}</p>\n\n<ngx-graph\n  class=\"chart-container\"\n  [view]=\"[1000, 500]\"\n  [curve]=\"curve\"\n  [links]=links\n  [nodes]=nodes\n  [zoomToFit$]=\"zoomToFit$\"\n>\n\n<ng-template #defsTemplate>\n    <svg:marker id=\"arrow\" viewBox=\"0 -5 10 10\" refX=\"8\" refY=\"0\" markerWidth=\"4\" markerHeight=\"4\" orient=\"auto\">\n      <svg:path d=\"M0,-5L10,0L0,5\" class=\"arrow-head\" />\n    </svg:marker>\n  </ng-template>\n  <ng-template #nodeTemplate let-node>\n    \n    <svg:g class=\"node\" >\n      <svg:rect [attr.width]=\"node.dimension.width\" [attr.height]=\"node.dimension.height\" [attr.fill]=\"node.data.color\" (click)= \"clicked(node.label)\" />\n      <svg:text alignment-baseline=\"central\" [attr.x]=\"10\"   (click)= \"clicked(node.label)\" [attr.y]=\"node.dimension.height / 2\">\n      \n      {{node.label}}\n    \n    </svg:text>\n    </svg:g>\n\n  </ng-template>\n  <ng-template #linkTemplate let-link>\n    <svg:g class=\"edge\">\n      <svg:path class=\"line\" stroke-width=\"2\" marker-end=\"url(#arrow)\">\n      </svg:path>\n      <svg:text class=\"edge-label\" text-anchor=\"middle\">\n        <textPath class=\"text-path\" [attr.href]=\"'#' + link.id\" [style.dominant-baseline]=\"link.dominantBaseline\" startOffset=\"50%\">\n          {{link.label}}\n        </textPath>\n      </svg:text>\n    </svg:g>\n  </ng-template>\n</ngx-graph>\n\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/stepper/stepper.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/stepper/stepper.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <!-- <button mat-raised-button (click)=\"isLinear = !isLinear\" id=\"toggle-linear\">\n        {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}\n      </button> -->\n      <!-- <mat-horizontal-stepper [linear]=\"isLinear\" #stepper>\n        <mat-step [stepControl]=\"firstFormGroup\">\n          <form [formGroup]=\"firstFormGroup\">\n            <ng-template matStepLabel>Fill out your name</ng-template>\n            <mat-form-field>\n              <mat-label>Name</mat-label>\n              <input matInput placeholder=\"Last name, First name\" formControlName=\"firstCtrl\" required>\n            </mat-form-field>\n            <div>\n              <button mat-button matStepperNext>Push</button>\n              <button mat-button matStepperNext>Next</button>\n            </div>\n          </form>\n        </mat-step>\n        <mat-step [stepControl]=\"secondFormGroup\">\n          <form [formGroup]=\"secondFormGroup\">\n            <ng-template matStepLabel>Fill out your address</ng-template>\n            <mat-form-field>\n              <mat-label>Address</mat-label>\n              <input matInput formControlName=\"secondCtrl\" placeholder=\"Ex. 1 Main St, New York, NY\"\n                     required>\n            </mat-form-field>\n            <div>\n              <button mat-button matStepperPrevious>Back</button>\n              <button mat-button matStepperNext>Next</button>\n            </div>\n          </form>\n        </mat-step>\n        <mat-step>\n          <ng-template matStepLabel>Done</ng-template>\n          <p>You are now done.</p>\n          <div>\n            <button mat-button matStepperPrevious>Back</button>\n            <button mat-button (click)=\"stepper.reset()\">Reset</button>\n          </div>\n        </mat-step>\n        <mat-step>\n            <ng-template matStepLabel>Done</ng-template>\n            <p>You are now done.</p>\n            <div>\n              <button mat-button matStepperPrevious>Back</button>\n              <button mat-button (click)=\"stepper.reset()\">Reset</button>\n            </div>\n          </mat-step>\n          <mat-step>\n            <ng-template matStepLabel>Done</ng-template>\n            <p>You are now done.</p>\n            <div>\n              <button mat-button matStepperPrevious>Back</button>\n              <button mat-button (click)=\"stepper.reset()\">Reset</button>\n            </div>\n          </mat-step>\n          <mat-step>\n            <ng-template matStepLabel>Done</ng-template>\n            <p>You are now done.</p>\n            <div>\n              <button mat-button matStepperPrevious>Back</button>\n              <button mat-button (click)=\"stepper.reset()\">Reset</button>\n            </div>\n          </mat-step>\n          <mat-step>\n            <ng-template matStepLabel>Done</ng-template>\n            <p>You are now done.</p>\n            <div>\n              <button mat-button matStepperPrevious>Back</button>\n              <button mat-button (click)=\"stepper.reset()\">Reset</button>\n            </div>\n          </mat-step>\n      </mat-horizontal-stepper> -->\n\n\n\n      <mat-vertical-stepper [linear]=\"isLinear\" #stepper>\n        <mat-step *ngFor=\"let item of map | keyvalue\">\n          <ng-template matStepLabel>  {{item.key}}</ng-template>\n          <br>\n          \n          <div id = \"valuebtns\"> \n          <button id = \"valuebtn\"  *ngFor=\"let show of item.value\"  (click) = \"addIt(item.key,show)\" matStepperNext  >\n\n            {{show}}\n          </button>\n        </div>\n          \n          <div>\n            <button mat-button matStepperPrevious>Back</button>\n            <button mat-button matStepperNext>Next</button>\n          </div>\n        </mat-step>\n        <mat-step>\n          <ng-template matStepLabel>  Final Step</ng-template>\n          <table class=\"table\">\n            <thead>\n              <tr>\n                <th scope=\"col\">Data</th>\n                <th scope=\"col\">Value</th>\n             \n              </tr>\n            </thead>\n            <tbody>\n              <tr *ngFor=\"let maping of finalMap | keyvalue\">\n                <th scope=\"row\">{{maping.key}}</th>\n                <td>{{maping.value}}</td>\n               \n              </tr>\n              \n            </tbody>\n          </table>\n\n        </mat-step>\n      </mat-vertical-stepper>\n    \n    \n</div>\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/story-borad/story-borad.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/story-borad/story-borad.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <br>\n    <br>\n    \n    <div id = \"displayData\">\n    <div *ngFor=\"let data of dispalyData\" >\n        <button id = \"data\">{{data | titlecase}}</button>\n\n    </div>\n</div>\n<br><br><br>\n\n<div>\n    <textarea name=\"\" id=\"areafull\" cols=\"100\" ></textarea>\n</div>\n\n    <button id = \"subbtn\">\n        Submit\n    </button>\n\n\n</div>");
 
 /***/ }),
 
@@ -564,7 +603,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _getit_getit_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./getit/getit.component */ "./src/app/getit/getit.component.ts");
 /* harmony import */ var _write_story_write_story_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./write-story/write-story.component */ "./src/app/write-story/write-story.component.ts");
 /* harmony import */ var _sub_topic_create_sub_topic_create_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sub-topic-create/sub-topic-create.component */ "./src/app/sub-topic-create/sub-topic-create.component.ts");
-/* harmony import */ var _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./show-graph/show-graph.component */ "./src/app/show-graph/show-graph.component.ts");
+/* harmony import */ var _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./stepper/stepper.component */ "./src/app/stepper/stepper.component.ts");
+/* harmony import */ var _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./edit-data/edit-data.component */ "./src/app/edit-data/edit-data.component.ts");
+/* harmony import */ var _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./story-borad/story-borad.component */ "./src/app/story-borad/story-borad.component.ts");
+
+
 
 
 
@@ -580,8 +623,16 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
+        path: "storyBorad",
+        component: _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_14__["StoryBoradComponent"]
+    },
+    {
+        path: "Edit",
+        component: _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_13__["EditDataComponent"]
+    },
+    {
         path: "display_graph",
-        component: _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_12__["ShowGraphComponent"]
+        component: _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_12__["StepperComponent"]
     },
     {
         path: "create_sub_topic",
@@ -721,6 +772,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _write_story_write_story_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./write-story/write-story.component */ "./src/app/write-story/write-story.component.ts");
 /* harmony import */ var _sub_topic_create_sub_topic_create_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./sub-topic-create/sub-topic-create.component */ "./src/app/sub-topic-create/sub-topic-create.component.ts");
 /* harmony import */ var _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./show-graph/show-graph.component */ "./src/app/show-graph/show-graph.component.ts");
+/* harmony import */ var _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./stepper/stepper.component */ "./src/app/stepper/stepper.component.ts");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
+/* harmony import */ var _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./edit-data/edit-data.component */ "./src/app/edit-data/edit-data.component.ts");
+/* harmony import */ var _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./story-borad/story-borad.component */ "./src/app/story-borad/story-borad.component.ts");
 
 
 
@@ -753,6 +808,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -769,7 +828,10 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _getit_getit_component__WEBPACK_IMPORTED_MODULE_26__["GetitComponent"],
             _write_story_write_story_component__WEBPACK_IMPORTED_MODULE_27__["WriteStoryComponent"],
             _sub_topic_create_sub_topic_create_component__WEBPACK_IMPORTED_MODULE_28__["SubTopicCreateComponent"],
-            _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_29__["ShowGraphComponent"]
+            _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_29__["ShowGraphComponent"],
+            _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_30__["StepperComponent"],
+            _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_32__["EditDataComponent"],
+            _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_33__["StoryBoradComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -779,6 +841,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_23__["AngularFirestoreModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
+            _angular_material_stepper__WEBPACK_IMPORTED_MODULE_31__["MatStepperModule"],
             _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__["MatDialogModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_9__["FormsModule"],
             _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_11__["NgbModule"],
@@ -796,6 +859,50 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/edit-data/edit-data.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/edit-data/edit-data.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2VkaXQtZGF0YS9lZGl0LWRhdGEuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/edit-data/edit-data.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/edit-data/edit-data.component.ts ***!
+  \**************************************************/
+/*! exports provided: EditDataComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditDataComponent", function() { return EditDataComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let EditDataComponent = class EditDataComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+EditDataComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-edit-data',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./edit-data.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/edit-data/edit-data.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./edit-data.component.css */ "./src/app/edit-data/edit-data.component.css")).default]
+    })
+], EditDataComponent);
 
 
 
@@ -1515,6 +1622,217 @@ ShowGraphComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./show-graph.component.css */ "./src/app/show-graph/show-graph.component.css")).default]
     })
 ], ShowGraphComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/stepper/stepper.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/stepper/stepper.component.css ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".mat-stepper-horizontal {\n    margin-top: 8px;\n  }\n  \n  .mat-form-field {\n    margin-top: 16px;\n  }\n  \n  #valuebtns{\n    display: grid;\n    grid-template-columns: 30% 30% 30%;\n    grid-gap: 3%;\n    grid-row-gap: 20px;\n    \n\n  }\n  \n  #valuebtn{\n\n    border-radius: 15px ;\n\n  }\n  \n  #valuebtn:hover{\n\n    background-color: black;\n    color: white;\n\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3RlcHBlci9zdGVwcGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsZ0JBQWdCO0VBQ2xCOztFQUNBO0lBQ0UsYUFBYTtJQUNiLGtDQUFrQztJQUNsQyxZQUFZO0lBQ1osa0JBQWtCOzs7RUFHcEI7O0VBQ0E7O0lBRUUsb0JBQW9COztFQUV0Qjs7RUFDQTs7SUFFRSx1QkFBdUI7SUFDdkIsWUFBWTs7RUFFZCIsImZpbGUiOiJzcmMvYXBwL3N0ZXBwZXIvc3RlcHBlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1hdC1zdGVwcGVyLWhvcml6b250YWwge1xuICAgIG1hcmdpbi10b3A6IDhweDtcbiAgfVxuICBcbiAgLm1hdC1mb3JtLWZpZWxkIHtcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xuICB9XG4gICN2YWx1ZWJ0bnN7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwJSAzMCUgMzAlO1xuICAgIGdyaWQtZ2FwOiAzJTtcbiAgICBncmlkLXJvdy1nYXA6IDIwcHg7XG4gICAgXG5cbiAgfVxuICAjdmFsdWVidG57XG5cbiAgICBib3JkZXItcmFkaXVzOiAxNXB4IDtcblxuICB9XG4gICN2YWx1ZWJ0bjpob3ZlcntcblxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgIGNvbG9yOiB3aGl0ZTtcblxuICB9Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/stepper/stepper.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/stepper/stepper.component.ts ***!
+  \**********************************************/
+/*! exports provided: StepperComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StepperComponent", function() { return StepperComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+
+
+
+let StepperComponent = class StepperComponent {
+    constructor(_formBuilder) {
+        this._formBuilder = _formBuilder;
+        this.isLinear = false;
+        this.cameraScensor = [
+            "SONY IMX178 (Ethernet Camera)",
+            "RaspberryPi Camera",
+            "Logitech USB  Camera",
+        ];
+        this.SensorTimeSeries = [
+            "KIONX112 (High Sampling)",
+            "Temp Sensor:DS18B20",
+            "Sensor simulator"
+        ];
+        this.SensorRadar = [
+            "  Radar",
+            "PD300 : 80 ft ",
+            "XeThru 30ft "
+        ];
+        this.ActionMsg = [
+            " Alert to Mobile User",
+            "Alert to Service Engineer",
+            "Alert to Inventry Manager",
+            "Alert to Site Manager",
+        ];
+        this.Action = [
+            "Motor Cutoff",
+            "Audio Alarm",
+            "Operate Lock",
+            "Boiler CutOff",
+        ];
+        this.SensorActuator = [
+            "MagneticLock",
+            "Relay"
+        ];
+        this.DevicesIntel = [
+            "X86 Architecture",
+            "UTX3115: Intel® Atom™",
+            "ReliaGATE 20-25 ,Intel Atom",
+            "HPE Industrial PC-i5 8GB "
+        ];
+        this.DevicesARM = [
+            "Raspberry pi Zero:        ",
+            "Raspberry pi 3 b+:       ",
+            "Raspberry pi 4 :             ",
+            "Jetson Tegra TK2:         ",
+            "Jetson Nano:                  ",
+            "FATBOX G3 - 3G : ",
+        ];
+        this.mainArray = [
+            "SensorCamera",
+            "SensorTimeSeries",
+            "SensorRadarz",
+            "ActionMsg",
+            "Action",
+            "SensorActuator",
+            "DevicesIntel",
+            "DevicesARM",
+            "DataStorage",
+            "Language",
+        ];
+        this.map = new Map([
+            ["cameraScensor",
+                ["SONY IMX178 (Ethernet Camera)",
+                    "RaspberryPi Camera",
+                    "Logitech USB  Camera",]
+            ], ["SensorTimeSeries", [
+                    "KIONX112 (High Sampling)",
+                    "Temp Sensor:DS18B20",
+                    "Sensor simulator"
+                ]],
+            ["SensorRadar",
+                ["  Radar",
+                    "PD300 : 80 ft ",
+                    "XeThru 30ft "]
+            ],
+            ["ActionMsg",
+                [" Alert to Mobile User",
+                    "Alert to Service Engineer",
+                    "Alert to Inventry Manager",
+                    "Alert to Site Manager",]
+            ],
+            ["Action",
+                ["Motor Cutoff",
+                    "Audio Alarm",
+                    "Operate Lock",
+                    "Boiler CutOff",]
+            ],
+            ["SensorActuator",
+                ["MagneticLock",
+                    "Relay"]
+            ],
+            ["DevicesIntel",
+                ["X86 Architecture",
+                    "UTX3115: Intel® Atom™",
+                    "ReliaGATE 20-25 ,Intel Atom",
+                    "HPE Industrial PC-i5 8GB "
+                ],
+            ]
+        ]);
+        this.finalMap = new Map();
+    }
+    ngOnInit() {
+        this.firstFormGroup = this._formBuilder.group({
+            firstCtrl: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+        });
+        this.secondFormGroup = this._formBuilder.group({
+            secondCtrl: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+        });
+    }
+    addIt(key, value) {
+        this.finalMap.set(key, value);
+    }
+    consoleIt() {
+        console.log(this.finalMap);
+    }
+};
+StepperComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+];
+StepperComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-stepper',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./stepper.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/stepper/stepper.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./stepper.component.css */ "./src/app/stepper/stepper.component.css")).default]
+    })
+], StepperComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/story-borad/story-borad.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/story-borad/story-borad.component.css ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("#displayData{\n    display: grid;\n    grid-gap: 20px;\n    grid-template-columns: auto auto auto auto;\n    text-align: center;\n}\n#data{\n    width: 100%;\n    border-radius: 15px;\n}\n#data:hover{\n    background-color: black;\n    color: white;\n}\n#areafull{\n    width: 100%;\n    height: 40vh;\n}\n#subbtn{\n    width: 90%;\n    text-align: center;\n    border-radius: 15px;\n    margin-top: 20px;\n    margin-left: 5%;\n    margin-right: 5%;\n    background-color: black;\n    color: white;\n    /* box-shadow: ; */\n    \n\n}\n#subbtn:hover{\n    background-color: white;\n    color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3RvcnktYm9yYWQvc3RvcnktYm9yYWQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixjQUFjO0lBQ2QsMENBQTBDO0lBQzFDLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksV0FBVztJQUNYLG1CQUFtQjtBQUN2QjtBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLFlBQVk7QUFDaEI7QUFDQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0FBQ2hCO0FBQ0E7SUFDSSxVQUFVO0lBQ1Ysa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGdCQUFnQjtJQUNoQix1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLGtCQUFrQjs7O0FBR3RCO0FBQ0E7SUFDSSx1QkFBdUI7SUFDdkIsWUFBWTtBQUNoQiIsImZpbGUiOiJzcmMvYXBwL3N0b3J5LWJvcmFkL3N0b3J5LWJvcmFkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjZGlzcGxheURhdGF7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLWdhcDogMjBweDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0byBhdXRvIGF1dG87XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuI2RhdGF7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYm9yZGVyLXJhZGl1czogMTVweDtcbn1cblxuI2RhdGE6aG92ZXJ7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gICAgY29sb3I6IHdoaXRlO1xufVxuI2FyZWFmdWxse1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogNDB2aDtcbn1cbiNzdWJidG57XG4gICAgd2lkdGg6IDkwJTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgIG1hcmdpbi1sZWZ0OiA1JTtcbiAgICBtYXJnaW4tcmlnaHQ6IDUlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAvKiBib3gtc2hhZG93OiA7ICovXG4gICAgXG5cbn1cbiNzdWJidG46aG92ZXJ7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gICAgY29sb3I6IGJsYWNrO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/story-borad/story-borad.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/story-borad/story-borad.component.ts ***!
+  \******************************************************/
+/*! exports provided: StoryBoradComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StoryBoradComponent", function() { return StoryBoradComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var random_words__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! random-words */ "./node_modules/random-words/index.js");
+/* harmony import */ var random_words__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(random_words__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+let StoryBoradComponent = class StoryBoradComponent {
+    constructor() { }
+    ngOnInit() {
+        console.log("i am condo");
+        console.log(random_words__WEBPACK_IMPORTED_MODULE_2__(10));
+        this.dispalyData = random_words__WEBPACK_IMPORTED_MODULE_2__(8);
+    }
+};
+StoryBoradComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-story-borad',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./story-borad.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/story-borad/story-borad.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./story-borad.component.css */ "./src/app/story-borad/story-borad.component.css")).default]
+    })
+], StoryBoradComponent);
 
 
 
