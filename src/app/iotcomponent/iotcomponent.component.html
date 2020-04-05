@@ -1,0 +1,121 @@
+<div class="container">
+
+    <div>
+
+        <button (click)="addEditData(true)">
+            Add Data
+        </button>
+        <button (click)="addEditData(false)">
+            SeeData
+        </button>
+
+
+    </div>
+    <ng-template [ngIf]="checkaddEditdata" [ngIfElse]="elseAddEditBlock">
+        <div>
+
+            <br><br>
+
+            <div id="divideTwoHalf">
+                <div>
+                    <mat-form-field>
+                        <mat-label>Select an option</mat-label>
+                        <mat-select [(value)]="selected">
+
+                            <div class="scrollablemenu">
+                                <mat-option *ngFor="let item of dropDownData" value="{{item}}"
+                                    (click)="getSecondHalf(item)">{{item}}</mat-option>
+                            </div>
+
+
+
+
+                        </mat-select>
+                    </mat-form-field>
+
+
+                    <br>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Enter the Value</mat-label>
+                        <input matInput [(ngModel)]="addTheString">
+
+
+
+                    </mat-form-field>
+                    &nbsp;&nbsp; <button mat-raised-button (click)="addTheValue(addTheString)">Add Data</button>
+                </div>
+                <div>
+                    <div *ngFor="let item of displayTheSecondHalf">
+
+                        {{item}} 
+                        
+                        <button   *ngIf="item != 'No data'"  (click)= "deleteTheItem(item)"> X</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </ng-template>
+
+    <ng-template #elseAddEditBlock>
+
+
+
+
+
+        <ng-template [ngIf]="check" [ngIfElse]="elseBlock">
+            <br>
+            <br>
+
+
+            <div id="valuebtns">
+                <button id="valuebtn" *ngFor="let item of displayData"
+                    (click)="getItData(item,true)"  
+                    [ngStyle]="{'background-color': item == seeDataSeleted ? 'black' : 'white',
+                    'color':item == seeDataSeleted ? 'white' : 'black'
+                }"
+                    
+                    >{{item | titlecase}}</button>
+
+<!-- <p>{{seeDataSeleted}}</p> -->
+                  
+            </div>
+            <br> 
+            <br>
+
+            <button mat-raised-button (click)="getIt(seeDataSeleted,true)">Next</button>
+
+        </ng-template>
+        <ng-template #elseBlock>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Data</th>
+                        <th scope="col">Value</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let maping of displayMap | keyvalue">
+                        <th scope="row" *ngIf="maping.key!='Start'">{{maping.key}}</th>
+                        <td *ngIf="maping.key!='Start'">{{maping.value}}</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+            <button id="valuebtn">
+                Submit
+            </button>
+        </ng-template>
+
+    </ng-template>
+
+
+
+</div>

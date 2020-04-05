@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"\">CodeBase</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        \n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\">Add Data<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"Edit\"> Edit Data</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"create_sub_topic\">Create Sub topics</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"storyBorad\"> Story Borad</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"display_graph\"> Architecture</a>\n        </li>\n       \n      </ul>\n    </div>\n  </nav>\n\n\n  <!-- <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Features</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link disabled\" href=\"#\">Disabled</a>\n        </li>\n      </ul>\n    </div>\n  </nav> -->\n\n\n  <div id = \"\">\n\n  </div>\n\n<router-outlet></router-outlet>\n\n<div class=\"fab\" routerLink=\"create_sub_topic\"> + </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div id = \"yesScreen\">\n\n  <h1 id = \"butify\">\n    Kindly Open in Desktop view \n  </h1>\n</div>\n\n\n<div id  = \"noScreen\">\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"\">CodeBase</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\"><span class=\"sr-only\">(current)</span></a>\n        </li>\n        \n        <li class=\"nav-item \">\n          <a class=\"nav-link\" routerLink=\"sendit\">Add Data<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"Edit\"> Edit Data</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"create_sub_topic\">Create Sub topics</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"storyBorad\"> Story Borad</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"display_graph\"> Architecture</a>\n        </li>\n       \n      </ul>\n    </div>\n  </nav>\n\n\n\n  <div id = \"\">\n\n  </div>\n\n<router-outlet></router-outlet>\n\n<div class=\"fab\" routerLink=\"create_sub_topic\"> + </div>\n\n</div>");
 
 /***/ }),
 
@@ -124,6 +124,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div id=\"heading\">\n    CodeBase\n</div>\n<br>\n\n<div class=\"container\">\n    <div id=\"activateGrid\">\n        <div id = \"displayGrid\">\n            <span *ngFor=\"let item of topics\">\n\n                <button class=\"fixedbox\" routerLink=\"/getit/{{item}}\">{{item}}</button>\n                \n            </span>\n        </div>\n    </div>\n\n\n\n\n</div>\n\n<!-- <app-angular></app-angular> -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot-from/iot-from.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iot-from/iot-from.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>iot-from works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/iotcomponent/iotcomponent.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/iotcomponent/iotcomponent.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n\n    <div>\n\n        <button (click)=\"addEditData(true)\">\n            Add Data\n        </button>\n        <button (click)=\"addEditData(false)\">\n            SeeData\n        </button>\n\n\n    </div>\n    <ng-template [ngIf]=\"checkaddEditdata\" [ngIfElse]=\"elseAddEditBlock\">\n        <div>\n\n            <br><br>\n\n            <div id=\"divideTwoHalf\">\n                <div>\n                    <mat-form-field>\n                        <mat-label>Select an option</mat-label>\n                        <mat-select [(value)]=\"selected\">\n\n                            <div class=\"scrollablemenu\">\n                                <mat-option *ngFor=\"let item of dropDownData\" value=\"{{item}}\"\n                                    (click)=\"getSecondHalf(item)\">{{item}}</mat-option>\n                            </div>\n\n\n\n\n                        </mat-select>\n                    </mat-form-field>\n\n\n                    <br>\n                    <mat-form-field class=\"example-full-width\">\n                        <mat-label>Enter the Value</mat-label>\n                        <input matInput [(ngModel)]=\"addTheString\">\n\n\n\n                    </mat-form-field>\n                    &nbsp;&nbsp; <button mat-raised-button (click)=\"addTheValue(addTheString)\">Add Data</button>\n                </div>\n                <div>\n                    <div *ngFor=\"let item of displayTheSecondHalf\">\n\n                        {{item}} \n                        \n                        <button   *ngIf=\"item != 'No data'\"  (click)= \"deleteTheItem(item)\"> X</button>\n\n                    </div>\n                </div>\n            </div>\n\n        </div>\n\n\n\n    </ng-template>\n\n    <ng-template #elseAddEditBlock>\n\n\n\n\n\n        <ng-template [ngIf]=\"check\" [ngIfElse]=\"elseBlock\">\n            <br>\n            <br>\n\n\n            <div id=\"valuebtns\">\n                <button id=\"valuebtn\" *ngFor=\"let item of displayData\"\n                    (click)=\"getItData(item,true)\"  \n                    [ngStyle]=\"{'background-color': item == seeDataSeleted ? 'black' : 'white',\n                    'color':item == seeDataSeleted ? 'white' : 'black'\n                }\"\n                    \n                    >{{item | titlecase}}</button>\n\n<!-- <p>{{seeDataSeleted}}</p> -->\n                  \n            </div>\n            <br> \n            <br>\n\n            <button mat-raised-button (click)=\"getIt(seeDataSeleted,true)\">Next</button>\n\n        </ng-template>\n        <ng-template #elseBlock>\n\n            <table class=\"table\">\n                <thead>\n                    <tr>\n                        <th scope=\"col\">Data</th>\n                        <th scope=\"col\">Value</th>\n\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr *ngFor=\"let maping of displayMap | keyvalue\">\n                        <th scope=\"row\" *ngIf=\"maping.key!='Start'\">{{maping.key}}</th>\n                        <td *ngIf=\"maping.key!='Start'\">{{maping.value}}</td>\n\n                    </tr>\n\n                </tbody>\n            </table>\n            <button id=\"valuebtn\">\n                Submit\n            </button>\n        </ng-template>\n\n    </ng-template>\n\n\n\n</div>");
 
 /***/ }),
 
@@ -603,9 +629,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _getit_getit_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./getit/getit.component */ "./src/app/getit/getit.component.ts");
 /* harmony import */ var _write_story_write_story_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./write-story/write-story.component */ "./src/app/write-story/write-story.component.ts");
 /* harmony import */ var _sub_topic_create_sub_topic_create_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sub-topic-create/sub-topic-create.component */ "./src/app/sub-topic-create/sub-topic-create.component.ts");
-/* harmony import */ var _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./stepper/stepper.component */ "./src/app/stepper/stepper.component.ts");
-/* harmony import */ var _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./edit-data/edit-data.component */ "./src/app/edit-data/edit-data.component.ts");
-/* harmony import */ var _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./story-borad/story-borad.component */ "./src/app/story-borad/story-borad.component.ts");
+/* harmony import */ var _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./edit-data/edit-data.component */ "./src/app/edit-data/edit-data.component.ts");
+/* harmony import */ var _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./story-borad/story-borad.component */ "./src/app/story-borad/story-borad.component.ts");
+/* harmony import */ var _iotcomponent_iotcomponent_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./iotcomponent/iotcomponent.component */ "./src/app/iotcomponent/iotcomponent.component.ts");
 
 
 
@@ -624,15 +650,15 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: "storyBorad",
-        component: _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_14__["StoryBoradComponent"]
+        component: _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_13__["StoryBoradComponent"]
     },
     {
         path: "Edit",
-        component: _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_13__["EditDataComponent"]
+        component: _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_12__["EditDataComponent"]
     },
     {
         path: "display_graph",
-        component: _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_12__["StepperComponent"]
+        component: _iotcomponent_iotcomponent_component__WEBPACK_IMPORTED_MODULE_14__["IotcomponentComponent"]
     },
     {
         path: "create_sub_topic",
@@ -693,7 +719,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".fab {\n    width: 50px;\n    height: 50px;\n    background-color: blue;\n    border-radius: 50%;\n    box-shadow: 0 6px 10px 0 #666;\n    transition: all 0.1s ease-in-out;\n  \n    font-size: 50px;\n    color: white;\n    text-align: center;\n    line-height: 47px;\n  \n    position: fixed;\n    right: 50px;\n    bottom: 50px;\n    outline: none;\n    \n }\n  \n .fab:hover {\n    box-shadow: 0 6px 14px 0 #666;\n    transform: scale(1.05);\n    cursor: pointer;\n    outline: none;\n\n    \n }\n  \n #addGrid{\n     display: grid;\n     grid-template-columns: auto auto auto auto;\n }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsNkJBQTZCO0lBQzdCLGdDQUFnQzs7SUFFaEMsZUFBZTtJQUNmLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsaUJBQWlCOztJQUVqQixlQUFlO0lBQ2YsV0FBVztJQUNYLFlBQVk7SUFDWixhQUFhOztDQUVoQjs7Q0FFQTtJQUNHLDZCQUE2QjtJQUM3QixzQkFBc0I7SUFDdEIsZUFBZTtJQUNmLGFBQWE7OztDQUdoQjs7Q0FDQTtLQUNJLGFBQWE7S0FDYiwwQ0FBMEM7Q0FDOUMiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mYWIge1xuICAgIHdpZHRoOiA1MHB4O1xuICAgIGhlaWdodDogNTBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibHVlO1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICBib3gtc2hhZG93OiAwIDZweCAxMHB4IDAgIzY2NjtcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC4xcyBlYXNlLWluLW91dDtcbiAgXG4gICAgZm9udC1zaXplOiA1MHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgbGluZS1oZWlnaHQ6IDQ3cHg7XG4gIFxuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICByaWdodDogNTBweDtcbiAgICBib3R0b206IDUwcHg7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBcbiB9XG4gIFxuIC5mYWI6aG92ZXIge1xuICAgIGJveC1zaGFkb3c6IDAgNnB4IDE0cHggMCAjNjY2O1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIG91dGxpbmU6IG5vbmU7XG5cbiAgICBcbiB9XG4gI2FkZEdyaWR7XG4gICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogYXV0byBhdXRvIGF1dG8gYXV0bztcbiB9Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".fab {\n    width: 50px;\n    height: 50px;\n    background-color: blue;\n    border-radius: 50%;\n    box-shadow: 0 6px 10px 0 #666;\n    transition: all 0.1s ease-in-out;\n  \n    font-size: 50px;\n    color: white;\n    text-align: center;\n    line-height: 47px;\n  \n    position: fixed;\n    right: 50px;\n    bottom: 50px;\n    outline: none;\n    \n }\n  \n .fab:hover {\n    box-shadow: 0 6px 14px 0 #666;\n    transform: scale(1.05);\n    cursor: pointer;\n    outline: none;\n\n    \n }\n  \n #addGrid{\n     display: grid;\n     grid-template-columns: auto auto auto auto;\n }\n  \n @media (min-width :0px )and ( max-width: 768px) {\n     #noScreen{\n         display: none;\n     }\n     #butify{\n         text-align: center;\n     }\n    \n\n    \n\n\n}\n  \n @media (min-width :769px ) {\n    #yesScreen{\n        display: none;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsNkJBQTZCO0lBQzdCLGdDQUFnQzs7SUFFaEMsZUFBZTtJQUNmLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsaUJBQWlCOztJQUVqQixlQUFlO0lBQ2YsV0FBVztJQUNYLFlBQVk7SUFDWixhQUFhOztDQUVoQjs7Q0FFQTtJQUNHLDZCQUE2QjtJQUM3QixzQkFBc0I7SUFDdEIsZUFBZTtJQUNmLGFBQWE7OztDQUdoQjs7Q0FDQTtLQUNJLGFBQWE7S0FDYiwwQ0FBMEM7Q0FDOUM7O0NBRUE7S0FDSTtTQUNJLGFBQWE7S0FDakI7S0FDQTtTQUNJLGtCQUFrQjtLQUN0Qjs7Ozs7O0FBTUw7O0NBQ0E7SUFDSTtRQUNJLGFBQWE7SUFDakI7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZhYiB7XG4gICAgd2lkdGg6IDUwcHg7XG4gICAgaGVpZ2h0OiA1MHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsdWU7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJveC1zaGFkb3c6IDAgNnB4IDEwcHggMCAjNjY2O1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjFzIGVhc2UtaW4tb3V0O1xuICBcbiAgICBmb250LXNpemU6IDUwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBsaW5lLWhlaWdodDogNDdweDtcbiAgXG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHJpZ2h0OiA1MHB4O1xuICAgIGJvdHRvbTogNTBweDtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIFxuIH1cbiAgXG4gLmZhYjpob3ZlciB7XG4gICAgYm94LXNoYWRvdzogMCA2cHggMTRweCAwICM2NjY7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgb3V0bGluZTogbm9uZTtcblxuICAgIFxuIH1cbiAjYWRkR3JpZHtcbiAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBhdXRvIGF1dG8gYXV0byBhdXRvO1xuIH1cblxuIEBtZWRpYSAobWluLXdpZHRoIDowcHggKWFuZCAoIG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAgI25vU2NyZWVue1xuICAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgfVxuICAgICAjYnV0aWZ5e1xuICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICB9XG4gICAgXG5cbiAgICBcblxuXG59XG5AbWVkaWEgKG1pbi13aWR0aCA6NzY5cHggKSB7XG4gICAgI3llc1NjcmVlbntcbiAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG59Il19 */");
 
 /***/ }),
 
@@ -776,6 +802,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
 /* harmony import */ var _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./edit-data/edit-data.component */ "./src/app/edit-data/edit-data.component.ts");
 /* harmony import */ var _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./story-borad/story-borad.component */ "./src/app/story-borad/story-borad.component.ts");
+/* harmony import */ var _iotcomponent_iotcomponent_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./iotcomponent/iotcomponent.component */ "./src/app/iotcomponent/iotcomponent.component.ts");
+/* harmony import */ var _iot_from_iot_from_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./iot-from/iot-from.component */ "./src/app/iot-from/iot-from.component.ts");
 
 
 
@@ -812,6 +840,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -831,7 +861,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _show_graph_show_graph_component__WEBPACK_IMPORTED_MODULE_29__["ShowGraphComponent"],
             _stepper_stepper_component__WEBPACK_IMPORTED_MODULE_30__["StepperComponent"],
             _edit_data_edit_data_component__WEBPACK_IMPORTED_MODULE_32__["EditDataComponent"],
-            _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_33__["StoryBoradComponent"]
+            _story_borad_story_borad_component__WEBPACK_IMPORTED_MODULE_33__["StoryBoradComponent"],
+            _iotcomponent_iotcomponent_component__WEBPACK_IMPORTED_MODULE_34__["IotcomponentComponent"],
+            _iot_from_iot_from_component__WEBPACK_IMPORTED_MODULE_35__["IotFromComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -1239,6 +1271,208 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")).default]
     })
 ], HomeComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/iot-from/iot-from.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/iot-from/iot-from.component.css ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2lvdC1mcm9tL2lvdC1mcm9tLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/iot-from/iot-from.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/iot-from/iot-from.component.ts ***!
+  \************************************************/
+/*! exports provided: IotFromComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IotFromComponent", function() { return IotFromComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let IotFromComponent = class IotFromComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+IotFromComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-iot-from',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./iot-from.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iot-from/iot-from.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./iot-from.component.css */ "./src/app/iot-from/iot-from.component.css")).default]
+    })
+], IotFromComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/iotcomponent/iotcomponent.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/iotcomponent/iotcomponent.component.css ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("#valuebtns{\n    display: grid;\n    grid-template-columns: 30% 30% 30%;\n    grid-gap: 3%;\n    grid-row-gap: 20px;\n    \n\n  }\n  #valuebtn{\n\n    border-radius: 15px ;\n\n  }\n  #valuebtn:hover{\n\n    background-color: black;\n    color: white;\n\n  }\n  #divideTwoHalf{\n      display: grid;\n      grid-template-columns: 50% 50%;\n  }\n  .scrollablemenu {\n    height: auto;\n    max-height: 200px;\n    overflow-x: hidden;\n    width: 100%;\n}\n  .scrollable-menu {\n    height: auto;\n    max-height: 200px;\n    overflow-x: hidden;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW90Y29tcG9uZW50L2lvdGNvbXBvbmVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLGtDQUFrQztJQUNsQyxZQUFZO0lBQ1osa0JBQWtCOzs7RUFHcEI7RUFDQTs7SUFFRSxvQkFBb0I7O0VBRXRCO0VBQ0E7O0lBRUUsdUJBQXVCO0lBQ3ZCLFlBQVk7O0VBRWQ7RUFDQTtNQUNJLGFBQWE7TUFDYiw4QkFBOEI7RUFDbEM7RUFFQTtJQUNFLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjtFQUNBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixrQkFBa0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9pb3Rjb21wb25lbnQvaW90Y29tcG9uZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjdmFsdWVidG5ze1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzMCUgMzAlIDMwJTtcbiAgICBncmlkLWdhcDogMyU7XG4gICAgZ3JpZC1yb3ctZ2FwOiAyMHB4O1xuICAgIFxuXG4gIH1cbiAgI3ZhbHVlYnRue1xuXG4gICAgYm9yZGVyLXJhZGl1czogMTVweCA7XG5cbiAgfVxuICAjdmFsdWVidG46aG92ZXJ7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjogd2hpdGU7XG5cbiAgfVxuICAjZGl2aWRlVHdvSGFsZntcbiAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDUwJSA1MCU7XG4gIH1cblxuICAuc2Nyb2xsYWJsZW1lbnUge1xuICAgIGhlaWdodDogYXV0bztcbiAgICBtYXgtaGVpZ2h0OiAyMDBweDtcbiAgICBvdmVyZmxvdy14OiBoaWRkZW47XG4gICAgd2lkdGg6IDEwMCU7XG59XG4uc2Nyb2xsYWJsZS1tZW51IHtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgbWF4LWhlaWdodDogMjAwcHg7XG4gICAgb3ZlcmZsb3cteDogaGlkZGVuO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/iotcomponent/iotcomponent.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/iotcomponent/iotcomponent.component.ts ***!
+  \********************************************************/
+/*! exports provided: IotcomponentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IotcomponentComponent", function() { return IotcomponentComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/es2015/index.js");
+/* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! firebase */ "./node_modules/firebase/dist/index.cjs.js");
+/* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(firebase__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+let IotcomponentComponent = class IotcomponentComponent {
+    constructor(afs) {
+        this.afs = afs;
+        this.displayData = [];
+        this.check = true;
+        this.mapKey = "Start";
+        this.displayMap = new Map();
+        this.checkaddEditdata = true;
+        this.selected = 'option2';
+        this.dropDownData = [];
+        this.displayTheSecondHalf = [];
+        this.addTheString = "";
+        this.seeDataSeleted = "";
+    }
+    ngOnInit() {
+        this.getIt("start", false);
+        this.getStartKey();
+    }
+    getSecondHalf(getItem) {
+        var getData = this.afs.collection("IotFrom").doc(getItem).valueChanges();
+        getData.subscribe((doc) => {
+            try {
+                console.log(doc.data.length);
+                if (doc.data.length > 0) {
+                    this.displayTheSecondHalf = doc.data;
+                }
+                else {
+                    this.displayTheSecondHalf = ["No data"];
+                }
+            }
+            catch (error) {
+                this.displayTheSecondHalf = ["No data"];
+            }
+        });
+    }
+    addEditData(checkadd) {
+        if (!checkadd) {
+            this.getIt("start", false);
+            this.getStartKey();
+        }
+        this.checkaddEditdata = checkadd;
+    }
+    getStartKey() {
+        var getData = this.afs.collection("IotFrom").doc("allKeys").valueChanges();
+        getData.subscribe((doc) => {
+            console.log(doc.data);
+            this.dropDownData = doc.data;
+        });
+    }
+    getItData(KeyRole, boolcheck) {
+        this.seeDataSeleted = KeyRole;
+    }
+    getIt(KeyRole, boolcheck) {
+        console.log(KeyRole);
+        if (boolcheck) {
+            this.displayMap.set(this.mapKey, KeyRole);
+            this.mapKey = KeyRole;
+        }
+        var reciveData = this.afs.collection("IotFrom").doc(KeyRole).get();
+        reciveData.subscribe((doc) => {
+            console.log("i am here");
+            if (doc.exists) {
+                try {
+                    if (doc.data().data.length > 0) {
+                        this.check = true;
+                        console.log(doc.data().data);
+                        this.displayData = doc.data().data;
+                    }
+                    else {
+                        this.check = false;
+                    }
+                }
+                catch (error) {
+                    this.check = false;
+                }
+            }
+            else {
+                this.check = false;
+            }
+        });
+    }
+    addTheValue(value) {
+        console.log(value);
+        console.log(this.selected);
+        this.addTheString = "";
+        if (this.displayTheSecondHalf[0] == "No data") {
+            this.afs.collection("IotFrom").doc(this.selected).set({
+                data: [value]
+            });
+            this.afs.collection("IotFrom").doc(value).set({});
+        }
+        else {
+            this.afs.collection("IotFrom").doc(value).set({});
+            this.afs.collection("IotFrom").doc(this.selected).update({
+                data: firebase__WEBPACK_IMPORTED_MODULE_3__["firestore"].FieldValue.arrayUnion(value)
+            });
+        }
+        this.afs.collection("IotFrom").doc("allKeys").update({
+            data: firebase__WEBPACK_IMPORTED_MODULE_3__["firestore"].FieldValue.arrayUnion(value)
+        });
+    }
+    deleteTheItem(value) {
+        this.afs.collection("IotFrom").doc(this.selected).update({
+            data: firebase__WEBPACK_IMPORTED_MODULE_3__["firestore"].FieldValue.arrayRemove(value)
+        });
+        this.afs.collection("IotFrom").doc("allKeys").update({
+            data: firebase__WEBPACK_IMPORTED_MODULE_3__["firestore"].FieldValue.arrayRemove(value)
+        });
+        this.afs.collection("IotFrom").doc(value).delete();
+    }
+};
+IotcomponentComponent.ctorParameters = () => [
+    { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"] }
+];
+IotcomponentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-iotcomponent',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./iotcomponent.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/iotcomponent/iotcomponent.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./iotcomponent.component.css */ "./src/app/iotcomponent/iotcomponent.component.css")).default]
+    })
+], IotcomponentComponent);
 
 
 

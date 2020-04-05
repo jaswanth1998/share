@@ -68,7 +68,9 @@ export class GetitComponent implements OnInit {
   sendid: any;
   onDisplay: string[]
 
-  constructor(private afs: AngularFirestore, public dialog: MatDialog,
+  constructor(
+    
+    private afs: AngularFirestore, public dialog: MatDialog,
 
     private route: ActivatedRoute,
     private router: Router,

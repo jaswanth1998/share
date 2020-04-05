@@ -26,6 +26,8 @@ import { EditDataComponent } from './edit-data/edit-data.component';
 
 import { StoryBoradComponent } from './story-borad/story-borad.component';
 
+import { IotcomponentComponent } from './iotcomponent/iotcomponent.component';
+
 
 const routes: Routes = [
   {
@@ -40,7 +42,7 @@ const routes: Routes = [
   },
   {
     path:"display_graph",
-    component:StepperComponent
+    component:IotcomponentComponent
 
   },
   {

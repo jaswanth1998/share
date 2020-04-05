@@ -52,6 +52,8 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { EditDataComponent } from './edit-data/edit-data.component';
 
 import { StoryBoradComponent } from './story-borad/story-borad.component';
+import { IotcomponentComponent } from './iotcomponent/iotcomponent.component';
+import { IotFromComponent } from './iot-from/iot-from.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +71,9 @@ import { StoryBoradComponent } from './story-borad/story-borad.component';
     ShowGraphComponent,
     StepperComponent,
     EditDataComponent,
-    StoryBoradComponent
+    StoryBoradComponent,
+    IotcomponentComponent,
+    IotFromComponent
   ],
   imports: [
     BrowserModule,
